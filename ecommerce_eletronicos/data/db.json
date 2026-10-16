@@ -1,0 +1,40 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Teclado Mecânico RGB",
+      "descricao": "Teclado mecânico gamer com switches blue e iluminação RGB personalizável.",
+      "preco": 350.00,
+      "quantidade": 15,
+      "categoria": "Periféricos",
+      "imagem": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500"
+    },
+    {
+      "id": "2",
+      "nome": "Mouse Gamer Sem Fio",
+      "descricao": "Mouse ergonômico de alta precisão com sensor óptico e bateria de longa duração.",
+      "preco": 200.00,
+      "quantidade": 30,
+      "categoria": "Periféricos",
+      "imagem": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500"
+    },
+    {
+      "id": "3",
+      "nome": "Headset Gamer Surround 7.1",
+      "descricao": "Headset com som imersivo, microfone com cancelamento de ruído e almofadas confortáveis.",
+      "preco": 280.50,
+      "quantidade": 12,
+      "categoria": "Áudio",
+      "imagem": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500"
+    },
+    {
+      "id": "4",
+      "nome": "Monitor UltraWide 29\"",
+      "descricao": "Monitor Full HD IPS com taxa de atualização de 100Hz ideal para produtividade e jogos.",
+      "preco": 1250.00,
+      "quantidade": 5,
+      "categoria": "Monitores",
+      "imagem": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500"
+    }
+  ]
+}
