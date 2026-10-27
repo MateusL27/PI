@@ -36,5 +36,13 @@
       "categoria": "Monitores",
       "imagem": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500"
     }
+  ],
+  "adms": [
+    {
+      "id": "1",
+      "nome": "Administrador",
+      "email": "admin@verdetech.com",
+      "senha": "AdminDemo2026!"
+    }
   ]
 }
