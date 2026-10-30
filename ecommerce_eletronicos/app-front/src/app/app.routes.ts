@@ -2,6 +2,7 @@ import { inject } from '@angular/core';
 import { Routes } from '@angular/router';
 import { Router } from '@angular/router';
 import { Login } from './pages/login/login';
+import { GerenciarProdutos } from './pages/gerenciar-produtos/gerenciar-produtos';
 import { Produtos } from './pages/produtos/produtos';
 
 function verificarAdministrador(): boolean | ReturnType<Router['createUrlTree']> {
@@ -15,6 +16,7 @@ function verificarAdministrador(): boolean | ReturnType<Router['createUrlTree']>
 export const routes: Routes = [
   { path: 'login', component: Login },
   { path: 'produtos', component: Produtos, canActivate: [verificarAdministrador] },
+  { path: 'gerenciar', component: GerenciarProdutos, canActivate: [verificarAdministrador] },
   { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: '**', redirectTo: 'login' },
 ];
